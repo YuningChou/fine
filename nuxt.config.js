@@ -13,7 +13,7 @@ module.exports = {
       { src: 'https://unpkg.com/jquery@3.2.1/dist/jquery.min.js' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css', integrity:'sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ', crossorigin:'anonymous'}
     ]
   },
@@ -48,8 +48,8 @@ module.exports = {
   css: [
     'swiper/dist/css/swiper.css'
   ],
-  env: {
-    baseUrl: process.env.BASE_URL || '/fine/'
+  router: {
+    base: '/fine/'
   }
 }
 
