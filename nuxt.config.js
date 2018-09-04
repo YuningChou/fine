@@ -40,7 +40,7 @@ module.exports = {
       }
     },
 
-    vendor:['bootstrap','vue-carousel']
+    vendor:['bootstrap']
 
   },
   plugins: [
