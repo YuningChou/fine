@@ -48,5 +48,6 @@ module.exports = {
   css: [
     'swiper/dist/css/swiper.css'
   ],
+
 }
 

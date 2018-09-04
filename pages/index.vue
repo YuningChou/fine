@@ -289,13 +289,25 @@
     <div class="bg-light py-5">
       <div class="container">
         <h3 class="text-center mb-3">合作夥伴</h3>
-        <carousel :perPage="4" :paginationPadding="5">
-          <slide class="px-1"><img src="../static/startravel.png" width="100%"></slide>
-          <slide class="px-1"><img src="../static/tsuse.png" width="100%"></slide>
-          <slide class="px-1"><img src="../static/mafi.png" width="100%"></slide>
-          <slide class="px-1"><img src="../static/hipo.png" width="100%"></slide>
-          <slide class="px-1"><img src="../static/wanzuo.png" width="100%"></slide>
-        </carousel>
+        <div v-swiper="swiperOption2" :instanceName="'inforSlide'" id="homeSlide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../static/startravel.png" width="100%">
+            </div>
+            <div class="swiper-slide">
+              <img src="../static/tsuse.png" width="100%">
+            </div>
+            <div class="swiper-slide">
+              <img src="../static/mafi.png" width="100%">
+            </div>
+            <div class="swiper-slide">
+              <img src="../static/hipo.png" width="100%">
+            </div>
+            <div class="swiper-slide">
+              <img src="../static/wanzuo.png" width="100%">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -308,7 +320,6 @@ if (process.browser) {
   const VueAwesomeSwiper = require('vue-awesome-swiper/dist/ssr')
   Vue.use(VueAwesomeSwiper)
 }
-import { Carousel, Slide } from "vue-carousel";
 export default {
   layout:'default',
   data () {
@@ -319,13 +330,15 @@ export default {
           height: 460,
           direction: 'vertical',
           slidesPerView: '5',
+        },
+        swiperOption2: {
+          autoplay:true,
+          loop:true,
+          slidesPerView: '4',
+          spaceBetween: 20
         }
       }
     },
-  components: {
-    Carousel,
-    Slide
-  }
 };
 </script>
 
