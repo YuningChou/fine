@@ -48,10 +48,8 @@ module.exports = {
   css: [
     'swiper/dist/css/swiper.css'
   ],
-
   env: {
     baseUrl: process.env.BASE_URL || '/fine/'
   }
-
 }
 
