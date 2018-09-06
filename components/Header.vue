@@ -4,7 +4,7 @@
         <nuxt-link class="py-2" to="/">
           <img src="../static/logo_white.png" width="70">
         </nuxt-link>
-        <a class="py-3 d-none d-md-inline-block" href="/shop/wifi">Fine商城</a>
+        <nuxt-link class="py-3 d-none d-md-inline-block" to="/shop/wifi">Fine商城</nuxt-link>
         <nuxt-link class="py-3 d-none d-md-inline-block" to="/faq">常見問題</nuxt-link>
         <nuxt-link class="py-3 d-none d-md-inline-block" to="/blogger">部落推薦</nuxt-link>
         <nuxt-link class="py-3 d-none d-md-inline-block" to="/media">媒體報導</nuxt-link>
