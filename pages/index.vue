@@ -54,7 +54,7 @@
           <h2 class="display-5">口碑推薦</h2>
           <p class="lead">FineMifi全新出國上網體驗，盛情邀請20位部落客參與體驗，只要部落客即將要出國，出國區域是FineMifi涵蓋區，提出申請接觸後，將有專人與您聯繫說明體驗合作機制，及確認是否資格符合，真心期盼您的加入，一起分享美好上網體驗給更多旅人。</p>
         </div>
-        <div class="mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <div class="mx-auto" style="width: 90%; height: 300px; border-radius: 21px 21px 0 0;">
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <div class="d-flex my-3">
